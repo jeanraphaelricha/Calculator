@@ -21,6 +21,8 @@ jobs:
              uses: gradle/gradle-build-action@v2
            - name: Build, test and compute JaCoCo reports
              run: ./gradlew build jacocoTestReport
+           - name: Make gradlew executable
+             run: chmod +x ./gradlew
            - name: Rapport de tests
              uses: dorny/test-reporter@v1
              if: success() || failure()
