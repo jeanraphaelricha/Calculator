@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jrricha.calculator.CalculatorTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2023-09-20T08:56:51" hostname="PCVIUT222" time="1.561">
+  <properties/>
+  <testcase name="digitsSet_devrait_retourner_les_chiffres_d_un_entier_positif()" classname="com.jrricha.calculator.CalculatorTest" time="0.34"/>
+  <testcase name="longCalcul_devrait_durer_moins_d_1_seconde()" classname="com.jrricha.calculator.CalculatorTest" time="0.933"/>
+  <testcase name="digitsSet_devrait_retourner_les_chiffres_d_un_entier_negatif()" classname="com.jrricha.calculator.CalculatorTest" time="0.003"/>
+  <testcase name="Produit de 2 int" classname="com.jrricha.calculator.CalculatorTest" time="0.017"/>
+  <testcase name="digitsSet_devrait_retourner_le_chiffre_0_d_un_entier_nul()" classname="com.jrricha.calculator.CalculatorTest" time="0.002"/>
+  <testcase name="0 + 1 = 1" classname="com.jrricha.calculator.CalculatorTest" time="0.06"/>
+  <testcase name="1 + 2 = 3" classname="com.jrricha.calculator.CalculatorTest" time="0.002"/>
+  <testcase name="49 + 51 = 100" classname="com.jrricha.calculator.CalculatorTest" time="0.003"/>
+  <testcase name="1 + 100 = 101" classname="com.jrricha.calculator.CalculatorTest" time="0.003"/>
+  <testcase name="2147483646 + 1 = 2147483647" classname="com.jrricha.calculator.CalculatorTest" time="0.002"/>
+  <testcase name="1 + 2 = 3" classname="com.jrricha.calculator.CalculatorTest" time="0.001"/>
+  <system-out><![CDATA[Tic chrono avant tous les tests
+Tic chrono apres tous les tests
+Duree des tests : 1583 millisecondes
+Duree des tests : 1?583 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
